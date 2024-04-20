@@ -1,11 +1,14 @@
 # Dell Vostro 5490 - EFI - Sonoma
 
 This is an EFI for DELL Vostro 5490 i7-10510U
+<br>
 Currently built for macOS Sonoma on OpenCore 0.9.9
 
 ## EFI Details
 **Latest working macOS**: 14.4.1
+<br>
 **Current OpenCore**: 0.9.9
+<br>
 **GenSMBIOS**: MacBookPro15,2
 
 ## Working
@@ -18,6 +21,7 @@ Currently built for macOS Sonoma on OpenCore 0.9.9
 
 ## Not Working
 - HDMI
+- Card Reader (Probably)
  
 ## How to use
   1. Create directory `EFI` in your pendrive
