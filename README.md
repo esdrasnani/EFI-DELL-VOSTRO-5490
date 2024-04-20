@@ -5,7 +5,7 @@ This is an EFI for DELL Vostro 5490 i7-10510U
 Currently built for macOS Sonoma on OpenCore 0.9.9
 
 ## EFI Details
-**Latest working macOS**: 14.4.1
+**Latest working macOS**: 14.4.1 (Sonoma)
 <br>
 **Current OpenCore**: 0.9.9
 <br>
@@ -25,11 +25,11 @@ Currently built for macOS Sonoma on OpenCore 0.9.9
  
 ## How to use
   1. Create directory `EFI` in your pendrive
-  2. Clone this repo and paste directiories "BOOT" and "OC" onto created directory
+  2. Clone this repo and paste directories "BOOT" and "OC" onto created directory
   3. Download [**GenSMBIOS**](https://github.com/corpnewt/GenSMBIOS) to generate unique SMBIOS information. 
   4. Run it and select **Install/Update MacSerial**
   5. Choose **Select config.plist** and paste your config.plist path
-  6. Select **Generate SMBIOS** and use **MacBookPro15,2**. Your changes will be merged to your config.plist automatically.
+  6. Select **Generate SMBIOS** and use **MacBookPro15,2**. These changes will be merged into your config.plist automatically.
   7. Boot it!
 
 
